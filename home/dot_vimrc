@@ -110,7 +110,7 @@ au FileType go nmap <leader>ds <Plug>(go-def-split)
 " Automatic reload of .vimrc ------------------------- {{{
 augroup grp_gen
     autocmd!
-    autocmd! bufwritepost .vimrc source %
+    autocmd! bufwritepost $MYVIMRC source %
     autocmd InsertEnter * :set norelativenumber
     autocmd InsertLeave * :set relativenumber
 augroup END
