@@ -24,10 +24,12 @@ Plugin 'scrooloose/syntastic'
 " Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'jeetsukumaran/vim-buffergator'
-Plugin 'brookhong/cscope.vim'
+" Plugin 'brookhong/cscope.vim'
+Plugin 'chazy/cscope_maps'
 Plugin 'fatih/vim-go'
 Plugin 'valloric/youcompleteme'
 Plugin 'cespare/vim-toml'
+Plugin 'fidian/hexmode'
 
 call vundle#end()
 filetype plugin indent on
